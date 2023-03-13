@@ -1,0 +1,313 @@
+@media screen and (min-width:768) {
+
+    main{
+        width: 900px;
+        
+    }
+}
+
+*{
+    padding:0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;}
+
+.man a {
+        color: #000;
+        }
+
+.intro{
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid black;
+    gap: 5px black;
+    background-color:#fff;
+}
+
+.fot img{
+    height:auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.intro .will{
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .will .flag, p{
+    padding-top: 5px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 200;
+    color:#000;
+}
+
+ h2 {
+    padding: 15px 0 15px 0;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+/*------------------------------------------------------------*/
+.wrapper {
+    width: 900px;
+    background-color: rgb(244, 238, 238);
+    color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(150px , auto);
+    padding-top: 5%;
+    // max-width: 900px;
+    margin: 0 auto;
+    grid-gap: 0px;
+    
+    }
+
+.wrapper > div {
+    padding-bottom: 25px;
+    transition: 0.3 ;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background: #fff;
+    padding: auto;
+    font-size: 1em;
+    width: 200px;
+}
+.wrapper .zero{
+    grid-column: 1;
+    grid-row: 1;
+}
+.wrapper .one{
+    grid-column: 1;
+    grid-row: 1/3;
+    background-image: url(../image/offer_teaser_ncol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper .one:hover{
+    color: grey;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+
+}
+
+.wrapper .tow{
+    grid-column: 2;
+    grid-row:1/3 ;
+    background-image: url(../image/nunberg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  
+
+.wrapper .tow:hover {
+     color: grey;
+    opacity: 0.5;
+    transition: all 0.7s ease 0s;        
+}
+.wrapper .three {
+    grid-column:3;
+    grid-row: 1/3;
+    background-image: url(../image/Zdf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.wrapper .three:hover {
+    color: grey;
+    opacity: 0.5;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.preis{
+    color: green;
+}
+/*-------------------------------------------------*/
+
+.wrap{
+    display: grid;
+    height: auto;
+    width: 900px;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: 2;
+    border: 1px solid black;
+    gap: 5px;
+    background-color: gray;
+
+}
+
+.wrap .seben {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+    background-color:#e0d4d4;
+
+}
+
+.wrap .acht{
+        text-align: center;
+        grid-column: 2/2;
+        background-color:#fff;
+}
+.wrap .neuen{
+       text-align: center;
+       grid-column: 3;
+       grid-row: 2;
+       background-color:#fff;
+}
+
+.wrap .seben1 img{
+   background-size: cover;
+   width: 288px;
+   height: 250px;
+
+}
+
+.wrap .seben1:hover {
+    transition: all 0.3 ease 0s;
+    color: gray;
+    opacity: 0.5;
+}
+
+.wrap .acht1{
+    grid-column:2;
+    grid-row:1;
+
+}
+
+.wrap .acht1 img{
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+.wrap .acht1:hover {
+    transition: all 0.3 ease 0s;
+    color: gray;
+    opacity: 0.5;
+}
+
+
+.wrap .neuen1{
+
+    grid-column:3;
+    grid-row: 1/3;
+
+
+}
+.wrap .neuen1 img{
+    background-size: cover;
+        width: 300px;
+        height:250px;
+
+}
+
+
+.wrap .neuen1:hover{
+    transition: all 0.3 ease 0s;
+    color: gray;
+    opacity: 0.5;
+}
+/*----------------------------------------------*/
+
+.box .bo{
+        width: 900px;
+        height: auto;
+        background-color: rgba(244, 238, 238, 0.494);
+        color: #e8dfdf;
+        display: grid;
+        grid: repeat(3, 150px)/repeat(4,1fr);
+        gap: 5px;
+        background-color: beige;
+        padding:0 0 0 0;
+        
+}
+
+.box .bo1{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width:250px;
+    background-image: url(../image/Festivals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column:1;
+    grid-row: 1/4;
+    background-color: rgb(245, 220, 235);
+  
+}
+.box .bo1:hover{
+    transition: all 0.3s ease 0s;
+    opacity: 0.5;
+}
+.box .bo2 {
+   
+    font-size:28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:640px;
+    background-image: url(../image/ausstelleungen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 1;
+}
+.box .bo2:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(160, 90, 90);
+    opacity: 0.5;
+}
+.box .bo3 {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../image/Zoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 640px;
+    grid-column:2;
+    grid-row: 2;
+    background-color: rgb(18, 2, 98);
+
+}
+.box .bo3:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(160, 131, 90);
+    opacity: 0.5;
+}
+.box .bo4 {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../image/Konzerte.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 640px;
+    grid-row: 3;
+    grid-column: 2;
+    background-color: rgb(244, 202, 226);
+}
+.box .bo4:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(160, 90, 90);
+    opacity: 0.5;
+
+}
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+

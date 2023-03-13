@@ -1,0 +1,483 @@
+li,
+a,
+button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: aqua;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(204, 0, 255, 0.568);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button a:hover {
+  background-color: rgb(28, 228, 61);
+}
+
+li,
+a,
+button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: aqua;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (min-width: 768) {
+  main {
+    width: 900px;
+  }
+}
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.man a {
+  color: #000;
+}
+
+.intro {
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid black;
+  gap: 5px black;
+  background-color: #fff;
+}
+
+.fot img {
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro .will {
+  align-items: center;
+  justify-content: center;
+}
+
+.intro .will .flag, p {
+  padding-top: 5px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #000;
+}
+
+h2 {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------------*/
+.wrapper {
+  width: 900px;
+  background-color: rgb(244, 238, 238);
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  padding-top: 5%;
+  margin: 0 auto;
+  grid-gap: 0px;
+}
+
+.wrapper > div {
+  padding-bottom: 25px;
+  transition: 0.3;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background: #fff;
+  padding: auto;
+  font-size: 1em;
+  width: 200px;
+}
+
+.wrapper .zero {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.wrapper .one {
+  grid-column: 1;
+  grid-row: 1/3;
+  background-image: url(../image/offer_teaser_ncol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .one:hover {
+  color: grey;
+  opacity: 0.5;
+  transition: all 0.3s ease 0s;
+}
+
+.wrapper .tow {
+  grid-column: 2;
+  grid-row: 1/3;
+  background-image: url(../image/nunberg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .tow:hover {
+  color: grey;
+  opacity: 0.5;
+  transition: all 0.7s ease 0s;
+}
+
+.wrapper .three {
+  grid-column: 3;
+  grid-row: 1/3;
+  background-image: url(../image/Zdf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .three:hover {
+  color: grey;
+  opacity: 0.5;
+  transition: all 0.3s ease 0s;
+}
+
+.preis {
+  color: green;
+}
+
+/*-------------------------------------------------*/
+.wrap {
+  display: grid;
+  height: auto;
+  width: 900px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: 2;
+  border: 1px solid black;
+  gap: 5px;
+  background-color: gray;
+}
+
+.wrap .seben {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #e0d4d4;
+}
+
+.wrap .acht {
+  text-align: center;
+  grid-column: 2/2;
+  background-color: #fff;
+}
+
+.wrap .neuen {
+  text-align: center;
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #fff;
+}
+
+.wrap .seben1 img {
+  background-size: cover;
+  width: 288px;
+  height: 250px;
+}
+
+.wrap .seben1:hover {
+  transition: all 0.3 ease 0s;
+  color: gray;
+  opacity: 0.5;
+}
+
+.wrap .acht1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.wrap .acht1 img {
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+
+.wrap .acht1:hover {
+  transition: all 0.3 ease 0s;
+  color: gray;
+  opacity: 0.5;
+}
+
+.wrap .neuen1 {
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+.wrap .neuen1 img {
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+
+.wrap .neuen1:hover {
+  transition: all 0.3 ease 0s;
+  color: gray;
+  opacity: 0.5;
+}
+
+/*----------------------------------------------*/
+.box .bo {
+  width: 900px;
+  height: auto;
+  background-color: rgba(244, 238, 238, 0.494);
+  color: #e8dfdf;
+  display: grid;
+  grid: repeat(3, 150px)/repeat(4, 1fr);
+  gap: 5px;
+  background-color: beige;
+  padding: 0 0 0 0;
+}
+
+.box .bo1 {
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 250px;
+  background-image: url(../image/Festivals.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 1/4;
+  background-color: rgb(245, 220, 235);
+}
+
+.box .bo1:hover {
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+}
+
+.box .bo2 {
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 640px;
+  background-image: url(../image/ausstelleungen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.box .bo2:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(160, 90, 90);
+  opacity: 0.5;
+}
+
+.box .bo3 {
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(../image/Zoo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 640px;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(18, 2, 98);
+}
+
+.box .bo3:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(160, 131, 90);
+  opacity: 0.5;
+}
+
+.box .bo4 {
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(../image/Konzerte.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 640px;
+  grid-row: 3;
+  grid-column: 2;
+  background-color: rgb(244, 202, 226);
+}
+
+.box .bo4:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(160, 90, 90);
+  opacity: 0.5;
+}
+
+/*-----------------------------------------------------*/
+.foot {
+  background-image: url(../image/carrr.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 200px;
+  color: rgb(237, 237, 141);
+}
+
+.foot-f:hover {
+  color: #49e11b;
+}
+
+.foot-f {
+  box-sizing: border-box;
+  padding-right: 10%;
+  float: right;
+  opacity: 1;
+  list-style: none;
+  height: 400px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.foot-f h2 h1 ul li:hover {
+  color: #49e11b;
+}
+
+body {
+  background-color: #e0d4d4;
+}
+
+.next p {
+  height: 40px;
+  padding-top: 10px;
+  background-color: #62d22e;
+  text-align: center;
+}
+
+.top {
+  text-align: center;
+  padding-left: 15%;
+}
+
+.bt {
+  border: 1ps solid black;
+  text-align: center;
+  padding-left: 40%;
+  background-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .add form {
+    text-align: center;
+    width: 900px;
+    font-size: larger;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .add h3 {
+    padding: 0.5rem;
+    background-color: greenyellow;
+    border: 1 px solid black;
+    text-align: center;
+    padding-left: 15%;
+  }
+  .add form:hover {
+    color: chartreuse;
+  }
+  form :nth-child(1) {
+    background-position: center;
+    box-sizing: border-box;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    scroll-behavior: smooth;
+    background-color: beige;
+  }
+  form:nth-child(4) {
+    border-radius: 5%;
+    color: #49e11b;
+  }
+  p {
+    text-align: center;
+  }
+  .btt {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style1.css.map */

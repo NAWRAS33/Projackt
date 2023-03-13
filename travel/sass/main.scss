@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, aside, footer{
+    //width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 2rem;
+}
+
+p{
+    padding:5px ;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 3px lightgreen;
+
+}
+a:hover{
+    color: #000;
+    background-color:red;
+    text-decoration: underline;
+}
+
+.back{
+   background-color: #000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro img{
+    width: fit-content;
+    height: 600px;
+    background-size: cover;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+}
+
+
+h2, p:hover{
+    color:rebeccapurple;
+    
+}
+
+
+
+.so-media{
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.tab th tr{
+    text-align: center;    
+ 
+}
+
+.tab td:nth-child(1){
+    background-color: rgb(66,103, 178) ;
+    color: white;
+  
+}
+.tab td:nth-child(2) {
+    background-color: #000;
+    color: rgb(19, 138, 224);
+    
+}
+.tab td:nth-child(3) {
+    background-color: red;
+}
+.tab td:nth-child(4) {
+    background-color:rgb(42 171 238);
+}
+
+
+.top a{
+    color: #000;
+}
+.top ul:hover{   
+    color: teal;
+}
+
+@media screen  and (min-width:768px)  {
+
+    .d-flex {
+        display: flex;
+
+        > main {
+            width: 70%;
+        }
+
+        > aside {
+            width: 30%;
+        }
+    }
+    
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+

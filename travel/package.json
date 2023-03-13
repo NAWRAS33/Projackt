@@ -1,0 +1,16 @@
+{
+  "name": "travil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts":
+  {
+
+    "dev": "sass  --watch   sass/styles.scss css/style.css ",
+     
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+
+}

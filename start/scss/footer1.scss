@@ -1,0 +1,114 @@
+ .foot {
+     background-image: url(../image/carrr.jpg);
+     background-position: center;
+     background-size: cover;
+     width: auto;
+     height: 200px;
+     color: rgb(237, 237, 141);
+
+ }
+
+
+ .foot-f:hover {
+     color: #49e11b;
+ }
+
+ .foot-f {
+     box-sizing: border-box;
+     // border: 1px solid black;
+     padding-right: 10%;
+     float: right;
+     opacity: 1;
+     list-style: none;
+     height: 400px;
+     padding: 5px;
+     text-decoration: none;
+ }
+
+ .foot-f h2 h1 ul li:hover {
+     color: #49e11b;
+ }
+
+ body {
+     background-color: #e0d4d4;
+ }
+
+ .next p {
+     height: 40px;
+     padding-top: 10px;
+     background-color: #62d22e;
+     text-align: center;
+ }
+
+ .top {
+     text-align: center;
+     padding-left: 15%;
+
+ }
+ .bt{
+    border: 1ps solid black;
+   
+    text-align: center;
+    padding-left: 40%;
+    
+    background-size: contain;
+
+
+ }
+
+ @media screen and (min-width:768px) {
+     .add form {
+       
+        text-align: center;
+        width: 900px;
+        font-size: larger;
+        font-family: sans-serif;
+        margin: 0 auto;
+        padding: 0 auto;
+
+     }
+
+    .add h3 {
+        padding: 0.5rem;
+        background-color:greenyellow;
+        border: 1 px solid black;
+        text-align: center;
+        padding-left:15%;
+     }
+
+     .add form:hover {
+         color: chartreuse;
+     }
+
+        form :nth-child(1){
+
+
+         background-position:center;
+         box-sizing: border-box;
+         height: 100px;
+         text-align:center;
+         margin: 0 auto;
+         width: 600px;
+         scroll-behavior: smooth;
+         background-color: beige;
+     }
+
+    form:nth-child(4){
+        border-radius: 5%;
+        color: #49e11b;
+     }
+     
+    
+    p {
+        text-align: center;
+     }
+     .btt{
+        text-align: center;
+     }
+
+
+    
+
+
+
+    }
